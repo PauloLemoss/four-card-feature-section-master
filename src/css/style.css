@@ -1,0 +1,118 @@
+ body{
+    font-family: "Poppins", serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    background-color: hsl(0, 0%, 98%);
+}
+main{
+    width: 100%;  
+     display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.header{
+    width: 100%;
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+
+.title-header{
+    color:  hsl(229, 6%, 66%);
+    margin-top: 30px;
+    font-size: 22px;
+}
+.paragraph-header{
+    color:  hsl(229, 6%, 66%);
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.container{
+    width: 100%;
+    max-width: 400px;
+}
+.team-builder-karma-container{
+  
+  margin-left: 40px;
+}
+
+.team-builder{
+    background-color: white;
+    width: 100%;
+    max-width: 320px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-top:  3px solid hsl(0, 78%, 62%);
+    border-radius:  0px 0px 10px 10px
+}
+.title-builder, .title-karma, .title-supervisor, .title-calculator{
+    padding: 10px;
+}
+
+.paragraph-builder, .paragraph-karma, .paragraph-supervisor, .paragraph-calculator{
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    font-size: 14px;
+    color:  hsl(229, 6%, 66%);
+}
+.icon-builder, .icon-karma, .icon-supervisor, .icon-calculator{
+    width: 60px;
+    height: 60px;
+    margin-left: 250px;
+    margin-top: 20px;
+}   
+.karma{
+    background-color: white;
+    width: 100%;
+    max-width: 320px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-top:  3px solid hsl(34, 97%, 64%);
+    border-radius:  0px 0px 10px 10px;
+    margin-top: 20px;
+}
+.supervisor-calculator-container{
+   display: flex;
+    margin-top: -400px;
+    gap: 350px;
+}
+.supervisor{
+    background-color: white;
+    width: 100%;
+    max-width: 320px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;   
+    padding: 10px;
+    border-top:  3px solid  hsl(180, 62%, 55%);
+    border-radius:  0px 0px 10px 10px;
+   margin-left: -320px;
+    
+}
+.calculator{
+    background-color: white;
+    width: 100%;
+    max-width: 320px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-top:  3px solid hsl(212, 86%, 64%);
+    border-radius:  0px 0px 10px 10px;
+    margin-left: 50px;
+}
+
